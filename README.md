@@ -2,6 +2,8 @@
 
 This smart alarm project ensures you're fully awake and ready to start the day. Place your phone in a secure compartment the night before, and when the alarm goes off in the morning, it won’t stop until you solve a math challenge on the keypad. An ultrasonic sensor detects when you're in front of the alarm, activating a water spray to ensure you’re paying attention.
 
+![Smart Alarm Front View](IMG_1570.jpg)
+
 ## How It Works
 
 - **Ultrasonic Sensor**: Detects when you are in front of the alarm in the morning. Only then does it activate a pump to spray water, adding an extra wake-up effect.
@@ -20,6 +22,12 @@ For those worried about the alarm being too stubborn, there’s a backdoor for e
 4. **Keypad**: Enables you to input answers to stop the alarm.
 5. **Servo Motor**: Controls the lock mechanism of the phone compartment.
 6. **Pump**: Activated by the ultrasonic sensor to spray water for an extra wake-up push.
+
+![Smart Alarm Interior](IMG_1572.jpg)
+*Inside view of the compartment where the phone is securely stored.*
+
+![Smart Alarm Lock Mechanism](IMG_1573.jpg)
+*Close-up of the servo-controlled lock mechanism.*
 
 ## How to Use
 
