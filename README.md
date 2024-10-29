@@ -5,8 +5,8 @@ This smart alarm project ensures you're fully awake and ready to start the day. 
 ## How It Works
 
 - **Ultrasonic Sensor**: Detects when you are in front of the alarm in the morning. Only then does it activate a pump to spray water, adding an extra wake-up effect.
-- **Keypad Challenge**: The alarm displays a randomized math problem on the LCD. You must enter the correct answer using the keypad to stop the alarm and unlock the phone compartment.
-- **Servo-Controlled Lock**: The compartment remains locked until you enter the correct answer. When you do, the servo unlocks the compartment, allowing access to your phone.
+- **Keypad Challenge**: The alarm displays a randomized math problem on the LCD. Three random numbers between 1 and 100 appear, and you must enter the correct sum using the keypad. If the answer is wrong, you’ll have to retry until you get it right. This sequence must be completed **twice** to unlock the compartment and silence the alarm.
+- **Servo-Controlled Lock**: The compartment remains locked until you solve both challenges. When you successfully complete the two math challenges, the servo unlocks the compartment, allowing access to your phone.
 
 ## Emergency Backup Access
 
@@ -24,14 +24,12 @@ For those worried about the alarm being too stubborn, there’s a backdoor for e
 ## How to Use
 
 1. Place your phone in the compartment before bed. The compartment is securely locked by the servo.
-2. In the morning, when the alarm goes off, stand in front of the alarm to activate the water spray (if you’re brave enough).
-3. Solve the math challenge displayed on the LCD by entering the correct answer on the keypad. If correct, the alarm stops and the compartment unlocks.
+2. In the morning, when the alarm goes off, stand in front of the alarm to activate the water spray.
+3. Solve the math challenge displayed on the LCD:
+   - Three random numbers between 1 and 100 will appear, and you must enter their sum using the keypad.
+   - If you answer incorrectly, you’ll have to retry until you get the correct answer.
+   - You must complete this challenge twice in a row to stop the alarm and unlock the compartment.
 4. **Emergency Access**: If all else fails, you can access the backdoor secured by 10 screws. But be warned, by the time you unscrew them all, you’ll definitely be awake!
 
-## Benefits of the Smart Alarm
+Initially, I created it as a pastime, but surprisingly, I saw that it actually worked. Now, every morning, I curse myself for coming up with this system.
 
-- **Effective Wake-Up**: With a water spray and a math challenge, there’s no chance of oversleeping.
-- **Secure Phone Storage**: Motivates you to get out of bed to access your phone.
-- **Backup Access**: The 10-screw backdoor ensures you can access your phone if needed, though it’s intentionally time-consuming to discourage cheating.
-
-This Smart Alarm is designed to make waking up more engaging, challenging, and foolproof. Start your day alert and energized, with no chance of oversleeping!
