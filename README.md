@@ -1,4 +1,4 @@
-# Smart Alarm with Morning Challenge and Water Spray
+# Smart Alarm
 
 This smart alarm project ensures you're fully awake and ready to start the day. Place your phone in a secure compartment the night before, and when the alarm goes off in the morning, it won’t stop until you solve a math challenge on the keypad. An ultrasonic sensor detects when you're in front of the alarm, activating a water spray to ensure you’re paying attention.
 
